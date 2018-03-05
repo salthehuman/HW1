@@ -16,6 +16,7 @@ import requests
 import json
 import facebook_info
 from flask import Flask
+from flask import request
 app = Flask(__name__)
 app.debug = True
 
